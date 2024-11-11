@@ -1,6 +1,7 @@
 package com.example.pedrapapeltesoura;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -84,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-        System.out.println( opcaoSelecionada );
+        Log.i(this.getClass().getName(), opcaoSelecionada);
 
         //Random random = new Random();
         //random.nextInt()
